@@ -55,9 +55,4 @@ func import(source_file, save_path, options, r_platform_variants, r_gen_files):
 	image.resize(v.x*image.get_width(),v.y*image.get_height(),it)
 	var itex:ImageTexture=ImageTexture.new()
 	itex.create_from_image(image)
-	#itex.set_data(image)
-	
-	#itex.load(source_file)
-	print(image.get_height())
-	print(image)
 	return ResourceSaver.save("%s.%s" % [save_path, get_save_extension()], itex)
