@@ -1,0 +1,15 @@
+[remap]
+
+importer="nknz.scale_importer"
+type="Texture"
+path="res://.import/Sample.png-7b8acfb6ff5cede21e42941f06cdfd67.tex"
+
+[deps]
+
+source_file="res://example/Sample.png"
+dest_files=[ "res://.import/Sample.png-7b8acfb6ff5cede21e42941f06cdfd67.tex" ]
+
+[params]
+
+scale_factor=Vector2( 1, 2 )
+interpolate_bilinear=false
